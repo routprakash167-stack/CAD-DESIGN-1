@@ -1,1 +1,46 @@
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: white;
+  font-family: Arial;
+}
 
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden { display: none; }
+
+.ribbon {
+  height: 50px;
+  background: #2d2d2d;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.ribbon button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+canvas {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: block;
+  cursor: crosshair;
+}
+
+.statusBar {
+  height: 30px;
+  background: #2d2d2d;
+  padding: 5px;
+}
